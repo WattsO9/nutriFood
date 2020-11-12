@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Be Vietnam;
+}
+
+#header{
+	width: 100%;
+	height: 30%;
+	margin-top: 10px;
+	float: left;
+}
+	/*Decoración de lineas naranjas izquierdas*/
+	.leftN{ 
+		width: 44%;
+		height: 30%;		
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 18px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde izquierda*/
+	.leftV{
+		width: 97%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.imgStyle{
+		width: 10%;
+		height: 20%;
+		margin-left: 15px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.imgStyle>img{
+		height: 75px;
+	}
+	/*Decoración de lineas naranjas derechas*/
+	.rightN{
+		width: 27%;
+		height: 30%;
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 18px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde derecha*/
+	.rightV{
+		width: 95%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+/*Apartado de botones de acciones*/
+.actions{
+	width: 15%;
+	height: 30%;
+	margin-top: 18px;
+	float: right;
+}
+	/*Acción: Iniciar sesión*/
+	.logIn{
+		font-size: 12px;
+		width: 95px;
+		height: 25px;
+		margin: auto;
+		color: white;
+		background-color: rgb(254, 117, 14);
+		border-color: rgb(254, 117, 14);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+	}
+	/*Acción: Registrarse*/
+	.singUp{
+		font-size: 12px;
+		width: 85px;
+		height: 25px;
+		margin: auto;
+		color: rgb(137, 192, 28);
+		background-color: white;
+		border-color: rgb(137, 192, 28);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+	}
+/*Posición del menú vertical izquierdo*/
+.menu{
+	height: 55%;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+}
+	/*Estilo de pestañas del menu de color naranja*/
+	.pageN{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(131, 183, 27);
+		border-color: rgb(254, 117, 14);
+		background-color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	/*Estilo de pestañas del menu de color verde*/
+	.pageV{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(254, 117, 14);
+		border-color: rgb(131, 183, 27);
+		background-color: white;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+#main{
+	height: 100%;
+	width: 70%;
+	margin-left: 15px;
+	margin-top: 15px;
+	float: left;
+}
+	/*Publicación cabecera de contenido relevante o destacado*/
+	.post{
+		height: 400px;
+		width: 90%;
+		margin: auto;
+		border-color: rgb(224, 245, 184);
+		border-style: none none solid none;
+	}
+	/*Imagen representativa de la publiación destacada*/
+	.post>img{
+		height: 380px;
+		width: 98%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		border-image: 
+	}
+	/*Contenido del main*/
+.info{
+		height: 250px;
+		margin-top: 250px;
+	}
+	/*estilo de perfiles de usuario en el main*/
+	.perfiles{
+		height: 50px;
+	}
+/*Barra lateral derecha*/
+#banner{
+	 width: 170px;
+	 height: 200px;
+	 margin-left: 15px;
+	 float: left;
+}
+	/*Información de contacto*/
+	.contacto{
+		width: 100%;
+		height: 50px;
+		padding: 20px;
+		margin-top: 20px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.contacto>h6{
+		color: rgb(254, 117, 14);
+	}
+
+	.contacto>p{
+		color: rgb(252, 178, 44);
+		font-size: 10px;
+	}
+
+	.contacto>a{
+		color: rgb(131, 183, 27);
+		font-size: 10px;
+	}
+
+/*#footer{
+	padding: 20px;
+	text-aling: center;
+	margin-top: 20px;
+}
+	.site{
+		color: rgb(252, 178, 44);
+		font-size: 14px;
+		margin-left: 50%;
+		margin-top: 15px;
+	}*/

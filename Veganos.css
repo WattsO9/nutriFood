@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Be Vietnam;
+}
+
+#header{
+	width: 100%;
+	height: 30%;
+	margin-top: 10px;
+	float: left;
+}
+	/*Decoración de lineas naranjas izquierdas*/
+	.leftN{ 
+		width: 44%;
+		height: 30%;		
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 18px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde izquierda*/
+	.leftV{
+		width: 97%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.imgStyle{
+		width: 10%;
+		height: 20%;
+		margin-left: 15px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.imgStyle>img{
+		height: 75px;
+	}
+	/*Decoración de lineas naranjas derechas*/
+	.rightN{
+		width: 27%;
+		height: 30%;
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 18px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde derecha*/
+	.rightV{
+		width: 95%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+/*Apartado de botones de acciones*/
+.actions{
+	width: 15%;
+	height: 30%;
+	margin-top: 18px;
+	float: right;
+}
+	/*Acción: Iniciar sesión*/
+	.logIn{
+		font-size: 12px;
+		width: 95px;
+		height: 25px;
+		margin-top: 6px;
+		margin-left: 5px;
+		color: white;
+		text-align: center;
+		background-color: rgb(254, 117, 14);
+		border-color: rgb(254, 117, 14);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+		float: left;
+	}
+	/*Acción: Registrarse*/
+	.singUp{
+		font-size: 12px;
+		width: 85px;
+		height: 25px;
+		margin-top: 6px;
+		margin-left: 10px;
+		text-align: center;
+		color: white;
+		background-color: rgb(137, 192, 28);
+		border-color: rgb(137, 192, 28);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+		float: left;
+	}
+/*Posición del menú vertical izquierdo*/
+.menu{
+	height: 55%;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+}
+	/*Estilo de pestañas del menu de color naranja*/
+	.pageN{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(131, 183, 27);
+		border-color: rgb(254, 117, 14);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	/*Estilo de pestañas del menu de color verde*/
+	.pageV{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(254, 117, 14);
+		border-color: rgb(131, 183, 27);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		display: block;
+	}
+
+	a:hover{
+		background-color: rgb(255, 249, 238);
+		color: black;
+	}
+
+#main{
+    width: 70%;
+    height: 100vh;
+	margin-left: 15px;
+	margin-top: 15px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleVeganContainer{
+width: 60%;
+height: 250px;
+margin:  0 auto;
+}
+
+.titleVeganContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcionVegano{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.queEsVegano{
+    color: #89C01C;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.descripcionVegano--descripcion{
+    width: 70%;
+    text-align: justify;
+    margin: 25px auto;
+}
+
+.comoHacermeVeganoButton{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comoHacermeVeganoButton--Button{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: .9rem;
+    color: black;
+    background-color: #FEF0D5;
+    border: 1px solid #FCB22C;
+    padding: 5px;
+}
+
+.platoSaludableVegano{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.platoSaludableVegano img{
+    width: 100%;
+}
+
+.paraVeganosComidas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.paraVeganosComidas--Title{
+    margin: 50px auto;
+}
+
+.paraVeganosComidas--Title h1{
+    font-size: 2rem;
+}
+
+.ofertasVeganas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.oferta{
+    width: 25%;
+}
+
+.oferta--Image{
+    width: 65%;
+    height: 125px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.oferta--Image img{
+    width: 100%;
+}
+
+.oferta--Text{
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.comoHacermeVegano{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.comoHacermeVegano--Title{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comoHacermeVegano--Title h1{
+    font-size: 2rem;
+    color: orange;
+}
+
+.comoHacermeVegano--ContainerImpar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.comoHacermeVegano--ContainerImpar--PrimeraMitad{
+    width: 60%;
+    display: flex;
+}
+
+.comoHacermeVegano--ContainerImpar--SegundaMitad{
+    width: 40%;
+}
+
+.Impar--Parrafo--Container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.Impar--Parrafo--Container p{
+    text-align: justify;
+    margin: auto;
+}
+
+.Impar--Imagen--Container{
+    width: 100%;
+}
+
+.Impar--Imagen--Container img{
+    width: 100%;
+}
+
+.comoHacermeVegano--ContainerPar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.comoHacermeVegano--ContainerPar--PrimeraMitad{
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.comoHacermeVegano--ContainerPar--SegundaMitad{
+    width: 60%;
+    display: flex;
+}
+
+.Par--Imagen--Container{
+    width: 100%;
+    margin: auto;
+}
+
+.Par--Imagen--Container img{
+    width: 100%;
+}
+
+.Par--Parrafo--Container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.Par--Parrafo--Container p{
+    text-align: justify;
+    margin: auto;
+}

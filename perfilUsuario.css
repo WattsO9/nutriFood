@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: Be Vietnam;
+}
+
+body{
+	background: url("fondo.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#form1{
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	margin-top: 75px;
+}
+
+#header{
+	width: 100%;
+	height: 85px;
+	margin-top: 10px;
+}
+
+	.leftN{
+		width: 44%;
+		height: 30%;		
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 18px;
+		margin-left: 10px;
+		float: left;
+	}
+
+	.leftV{
+		width: 97%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.imgStyle{
+		width: 20%;
+		height: 20%;
+		margin-left: 15px;
+		margin-right: 10px;
+		float: left;
+	}
+	.imgStyle>a>img{
+		height: 75px;
+	}
+
+	.rightN{
+		width: 42%;
+		height: 30%;
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-right: 10px;
+		float: right;
+	}
+
+	.rightV{
+		width: 97%;
+		height: 20%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+#Perfil{
+	width: 100%;
+	height: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+	.title-Perfil{
+		width: 100%;
+		height: 35px;
+		margin: auto;
+		margin-top: 5px;
+		text-align: center;
+		color: rgb(131, 183, 27);
+	}
+		.title-Perfil>h2{
+			font-size: 20px;
+			padding-top: 2px;
+		}
+
+	.user{
+		width: 30%;
+		margin: auto;
+		margin-top: 15px;
+		text-align: center;
+	}
+		.user>img{
+			width: 220px;
+			margin: auto;
+		}
+		.user>p>b{
+			font-size: 24px;
+			color: rgb(131, 183, 27);
+			margin-top: 5px;
+			padding-bottom: 10px;
+		}
+	.info-User{
+		width: 20%;
+		height: 180px;
+		margin: auto;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+		.info-User>h3{
+			font-size: 18px;
+			margin-top: 5px;
+			margin-left: 10px;
+			float: left;
+		}
+	.description{
+		width: 100%;
+		height: 150px;
+		margin: auto;
+		margin-top: 5px;
+		border-style: dotted solid none solid;
+		border-color: rgb(254, 117, 14);
+		border-width: 2px;
+		float: left;
+	}
+		.description>p{
+			width: 90%;
+			height: 120px;
+			padding-left: 10px;
+		}

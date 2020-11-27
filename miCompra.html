@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi compra</title>
+	<link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="miCompra.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<!--Cabecera de NutriFood-->
+	<div id="header">
+		<!--Lineas izquierdas, Naranja y verde, respectivamente-->
+		<div class="leftN">
+			<div class="leftV"></div>
+		</div>
+		<div class="imgStyle">
+			<a href="NutriFood.html"><img src="nutrifood.png"></a>
+		</div>
+		<!--Lineas derechas, Naranja y verde, respectivamente-->
+		<div class="rightN">
+			<div class="rightV"></div>
+		</div>
+		<!--Acciones para el usuario en la parte superior derecha-->
+		<div class="actions">
+			<a href="perfilUsuario.html"><img src="usuario.png">
+			<p>@usuario</p></a>
+			<a href="NutriFood.html" class="logOut">cerrar sesión</a>
+		</div>
+	</div>
+	
+	<!--Menu vertical. ("pageN"=boton punteado naranja) ("pageV"=boton punteado verde)-->
+	<div id="menu">
+		<a href="NutriFoodRegistrado.html" class="pageN">Home</a>
+		<a href="VeganosRegistrado.html" class="pageV">Veganos</a>
+		<a href="VegetarianosRegistrado.html" class="pageN">Vegetarianos</a>
+		<a href="DietasRegistrado.html" class="pageV">Dietas</a>
+		<a href="TipsRegistrado.html" class="pageN">Tips</a>
+		<a href="ComprasRegistrado.html" class="pageV">Compras</a>
+	</div>
+	
+	<div id="main">
+		<figure class="title-MiCompra">
+			<img src="compra.png">
+		</figure>
+		<form id="form1" name="form1" method="" action="">
+			<div class="sInput">
+				<p>Cliente</p>
+				<input type="text" name="usuario" id="usuario" placeholder="usuario">
+			</div>
+			<div class="sInput">
+				<p>Correo electrónico</p>
+				<input type="email" name="email" id="email" placeholder="correo@email.com">
+			</div>
+			<div class="sInput">
+				<p>Número de teléfono</p>
+				<input type="number" name="numero" id="numero" placeholder="+52">
+			</div>
+			<div class="sInput">
+				<p>Ingrese No. de tarjeta</p>
+				<input type="number" name="noTarjeta" id="noTarjeta" placeholder="XXXXXXXXXXXX">
+			</div>
+			<div class="sInput">
+				<p>Ingrese No. de seguridad</p>
+				<input type="number" name="noSeguridad" id="noSeguridad">
+			</div>
+			<div class="botones">
+				<div class="bCancelar">
+					<a href="ComprasRegistrado.html">CANCELAR</a>
+				</div>
+				<div class="bComprar">
+					<a href="NutriFoodRegistrado.html">COMPRAR</a>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	<div id="banner"> <!--Barra lateral derecha de info de contacto-->
+		<div class="contacto">
+			 <h6>Contacto:</h6>
+			 <p><b>nutrifoodTII@gmail.com
+				<br>Tel. 44223545120</b>
+			 </p>
+			<div class="redes">
+				<a href="https://www.instagram.com/nutrifoodtll/"><img src="icoIG.png"></a>
+				<a href="https://twitter.com/NutriFoodII"><img src="icoTW.png"></a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>NutriFood.com 2020</p>
+	</div>
+</body>
+</html>

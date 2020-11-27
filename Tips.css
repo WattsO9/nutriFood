@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Be Vietnam;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+#header{
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 99999;
+}
+	/*Decoración de lineas naranjas izquierdas*/
+	.leftN{ 
+		width: 44%;
+		height: 22%;		
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 25px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde izquierda*/
+	.leftV{
+		width: 97%;
+		height: 5%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.imgStyle{
+		width: 10%;
+		height: 20%;
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.imgStyle>a>img{
+		height: 75px;
+	}
+	/*Decoración de lineas naranjas derechas*/
+	.rightN{
+		width: 28%;
+		height: 22%;
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 25px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde derecha*/
+	.rightV{
+		width: 95%;
+		height: 5%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+/*Apartado de botones de acciones*/
+.actions{
+	width: 14%;
+	height: 30%;
+	margin-top: 25px;
+	float: right;
+}
+	/*Acción: Iniciar sesión*/
+	.logIn{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+		margin-left: 5px;
+		color: white;
+		text-align: center;
+		background-color: rgb(254, 117, 14);
+		border-color: rgb(254, 117, 14);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+		float: left;
+	}
+	/*Acción: Registrarse*/
+	.singIn{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+		margin-left: 10px;
+		text-align: center;
+		color: white;
+		background-color: rgb(137, 192, 28);
+		border-color: rgb(137, 192, 28);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 2px;
+		float: left;
+	}
+/*Posición del menú vertical izquierdo*/
+#menu{
+	height: 55%;
+	width: 150px;
+	top: 120px;
+	left: 25px;
+	text-align: center;
+	position: fixed;
+}
+	/*Estilo de pestañas del menu de color naranja*/
+	.pageN{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(131, 183, 27);
+		border-color: rgb(254, 117, 14);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	/*Estilo de pestañas del menu de color verde*/
+	.pageV{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(254, 117, 14);
+		border-color: rgb(131, 183, 27);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		display: block;
+	}
+	
+	a:hover{
+		background-color: rgb(255, 249, 238);
+		color: black;
+	}
+
+#main{
+	height: 100vh;
+	width: 70%;
+	margin-left: 25%;
+	margin-top: 180px;
+	margin: auto;
+}
+	.title-Tips{
+		width: 90%;
+		height: 380px;
+		margin:  0 auto;
+	}
+		.title-Tips>img{
+			height: 100%;
+			width: 100%;
+		}
+
+	.entrada{
+		width: 98%;
+		margin: auto;
+		margin-top: 15px;
+		margin-left: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+		.title-Entrada{
+			width: 100%;
+			margin: auto;
+			margin-top: 25px;
+			border-color: rgb(255, 117, 0);
+			border-style: none none solid none;
+			border-width: 5px;
+		}
+			.title-Entrada>h1{
+				color: rgb(152, 193, 28);
+				padding-left: 10px;
+				padding-bottom: 5px;
+				font-size: 26px;
+			}
+		.info{
+			width: 100%;
+			margin: auto;
+		}
+		.info>p{
+			margin: auto;
+			padding: 10px;
+		}
+.tips{
+	width: 95%;
+	height: 80%;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+	.tips-Image{
+		width: 95%;
+		height: 200px;
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+		.tips-Image>img{
+			width: 100%;
+			height: 100%;
+		}
+
+.content{
+	width: 98%;
+	margin: auto;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+	.content-Text{
+		width: 75%;
+		margin-left: 20px;
+	}
+		.content-Text>ul{
+			display: block;
+			list-style-type: disc;
+			margin-top: 35px;
+			padding-left: 15px;
+		}
+		.content-Text>ul>li{
+			margin-top: 15px;
+		}
+
+	.content-Image{
+		width: 30%;
+		height: 400px;
+		margin: auto;
+		margin-left: 15px;
+	}
+		.content-Image>img{
+			width: 95%;
+			height: 100%;
+		}
+
+.tipsVegetarian{
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	border-style: dotted none dotted none;
+    border-color: rgb(224, 245, 184);
+    border-width: 5px;
+}
+	.tipsVegetarian>img{
+		width: 100%;
+		height: 100%;
+	}
+
+.title-Proteina{
+	width: 80%;
+	height: 43px;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	background-color: rgb(252, 178, 44);
+}
+	.title-Proteina>h2{
+		color: white;
+		font-size: 28px;
+	}
+
+.content-Proteina{
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	display: flex;
+}
+	.content-Image-Proteina{
+		width: 40%;
+		margin-left: 30px;
+		float: left;
+	}
+		.content-Image-Proteina>img{
+			width: 100%;
+			height: 100%;
+			margin: auto;
+		}
+
+	.content-Text-Proteina{
+		width: 48%;
+		margin-left: 30px;
+		margin-top: 20px;
+		float: left;
+	}
+		.content-Text-Proteina>p{
+			margin-top: 10px;
+		}
+
+#banner{
+     width: 170px;
+     height: 200px;
+     top: 130px;
+     border-style: none none none dashed;
+     border-color: rgb(131, 183, 27);
+     border-width: 2px;
+	 right: 15px;
+	 position: fixed;
+	 box-sizing: border-box;
+}
+    /*Información de contacto*/
+    .contacto{
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+        .contacto>h6{
+            color: rgb(254, 117, 14);
+        }
+        .contacto>p>b{
+            font-size: 12px;
+        }
+    .redes{
+		width: 50%;
+		height: 40px;
+		margin-left: 5px;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: row;
+	}
+		.redes>a>img{
+			width: 35px;
+			height: 35px;
+		}
+
+#footer{
+    width: 95%;
+    height: 30px;
+    border-style: dotted none none none;
+    border-color: rgb(224, 245, 184);
+    border-width: 5px;
+    text-align: center;
+    margin-top: 2550px;
+    margin-left: 30px;
+    padding: 5px;
+    float: left;
+}
+    #footer>p{
+        color: rgb(252, 178, 44);
+        font-size: 14px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }

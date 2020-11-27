@@ -1,0 +1,355 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: Be Vietnam;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+#header{
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 99999;
+}
+	/*Decoración de lineas naranjas izquierdas*/
+	.leftN{ 
+		width: 44%;
+		height: 22%;		
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 25px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde izquierda*/
+	.leftV{
+		width: 97%;
+		height: 5%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	.imgStyle{
+		width: 10%;
+		height: 20%;
+		margin-top: 10px;
+		margin-left: 15px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.imgStyle>a>img{
+		height: 75px;
+	}
+	/*Decoración de lineas naranjas derechas*/
+	.rightN{
+		width: 28%;
+		height: 22%;
+		border-color: rgb(254, 117, 14);
+		border-style: dashed none dashed none;
+		border-width: 2px;
+		margin-top: 25px;
+		margin-left: 10px;
+		float: left;
+	}
+	/*Decoración de linea verde derecha*/
+	.rightV{
+		width: 95%;
+		height: 5%;
+		background: rgb(211, 240, 154);
+		border: none;
+		margin: 5px;
+		padding: 5px;
+	}
+/*Apartado de botones de acciones*/
+.actions{
+	width: 14%;
+	height: 30%;
+	margin-top: 15px;
+	float: right;
+}
+	/*Acción: Usuario*/
+	.actions>a>img{
+		width: 35px;
+		margin-top: 6px;
+		text-align: center;
+		float: left;
+	}
+	.actions>a>p{
+		margin-top: 12px;
+		margin-left: 3px;
+		font-size: 12px;
+		text-align: center;
+		color: rgb(137, 192, 28);
+		float: left;
+	}
+	/*Acción: Cerrar sesión*/
+	.logOut{
+		width: 80px;
+		height: 20px;
+		margin-top: 10px;
+		margin-left: 8px;
+		font-size: 12px;
+		text-align: center;
+		color: rgb(254, 117, 14);
+		border-color: rgb(254, 117, 14);
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 1px;
+		float: left;
+	}
+/*Posición del menú vertical izquierdo*/
+#menu{
+	height: 55%;
+	width: 150px;
+	top: 120px;
+	left: 25px;
+	text-align: center;
+	position: fixed;
+}
+	/*Estilo de pestañas del menu de color naranja*/
+	.pageN{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(131, 183, 27);
+		border-color: rgb(254, 117, 14);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	/*Estilo de pestañas del menu de color verde*/
+	.pageV{
+		width: 120px;
+		border: 2px dashed;
+		color: rgb(254, 117, 14);
+		border-color: rgb(131, 183, 27);
+		margin-left: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 5px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	a:link, a:visited{
+		text-decoration: none;
+		display: block;
+	}
+	
+	a:hover{
+		background-color: rgb(255, 249, 238);
+		color: black;
+	}
+
+#main{
+	height: 100vh;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 110px;
+}
+	/*Publicación cabecera de contenido relevante o destacado*/
+	.post{
+		height: 400px;
+		width: 95%;
+		margin: auto;
+		border-color: rgb(224, 245, 184);
+		border-style: none none solid none;
+		border-width: 5px;
+	}
+		/*Imagen representativa de la publiación destacada*/
+		.post>img{
+			height: 370px;
+			width: 95%;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	/*Contenido del main*/
+.info{
+		height: 250px;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.info>h2{
+		color: rgb(254, 117, 14);
+		font-size: 50px;
+		margin-left: 25px;
+	}
+
+		.info1{
+			width: 100%;
+			height: 205px;
+			margin-top: 20px;
+			margin-left: 25px;
+			margin-bottom: 80px;
+			float: left;
+		}
+			.info1A{
+				width: 48%;
+				margin-left: 25px;
+				margin-top: 50px;
+				float: left;
+			}
+			.info1B{
+				width: 40%;
+				margin-left: 25px;
+				float: left;
+			}
+				.info1B>img{
+					width: 350px;
+					height: 200px;
+				}
+	/*estilo de perfiles de usuario en el main*/
+	.perfiles{
+		width: 90%;
+		height: 150px;
+		margin-left: 180px;
+	}
+		.perfil{
+			width:  30%;
+			height: 130px;
+			margin: auto;
+			float: left;
+		}
+		.perfil>img{
+			height: 100px;
+		}
+		.perfil>p{
+			font-size: 15px;
+		}
+
+.actionsNF{
+	height: 300px;
+	width: 95%;
+	border-style: dotted none none none;
+	border-color: rgb(254, 224, 171);
+	border-width: thick;
+	margin-top: 100px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	float: left;
+}
+	.actionsNF>h2{
+		color: rgb(131, 183, 27);
+		text-align: center;
+		font-size: 30px;
+		margin-top: 25px;
+	}
+
+	.action{
+		height: 120px;
+		width: 95%;
+		margin-top: 25px;
+		margin-left: 50px;
+		margin-bottom: 15px;
+	}
+
+		.action1{
+			width: 55%;
+			height: 80px;
+			margin-top: 15px;
+			margin-left: 15px;
+			padding-top: 15px;
+			display: block;
+			float: left;
+		}
+			.action1>img{
+				height: 35px;
+				margin-left: 10px;
+				margin-top: 10px;
+				margin-right: 10px;
+				float: left;
+			}
+
+		.action2{
+			width: 40%;
+			height: 120px;
+			margin-left: 10px;
+			float: left;
+		}
+			.action2>img{
+				height: 120px;
+				margin-left: 25px;
+			}
+
+		.action2A{
+			width: 40%;
+			height: 120px;
+			margin-left: 10px;
+			float: left;
+		}
+			.action2A>img{
+				height: 120px;
+				margin-left: 115px;
+			}
+
+/*Barra lateral derecha*/
+#banner{
+	 width: 170px;
+	 height: 200px;
+	 top: 130px;
+	 border-style: none none none dashed;
+	 border-color: rgb(131, 183, 27);
+	 border-width: 2px;
+	 right: 15px;
+	 position: fixed;
+	 box-sizing: border-box;
+}
+	/*Información de contacto*/
+	.contacto{
+		width: 100%;
+		height: 50px;
+		padding: 10px;
+		margin-left: 5px;
+	}
+		.contacto>h6{
+			color: rgb(254, 117, 14);
+		}
+		.contacto>p>b{
+			font-size: 12px;
+		}
+	.redes{
+		width: 50%;
+		height: 40px;
+		margin-left: 5px;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: row;
+	}
+		.redes>a>img{
+			width: 35px;
+			height: 35px;
+		}
+
+#footer{
+	width: 95%;
+	height: 30px;
+	border-style: dotted none none none;
+	border-color: rgb(224, 245, 184);
+	border-width: 5px;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 30px;
+	padding: 5px;
+	float: left;
+}
+	#footer>p{
+		color: rgb(252, 178, 44);
+		font-size: 14px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
